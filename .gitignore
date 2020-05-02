@@ -67,3 +67,4 @@ variables.env
 
 # project specific
 public/dist
+mix-manifest.json
