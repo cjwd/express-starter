@@ -12,21 +12,21 @@
     "build:production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "airtable": "^0.5.7",
+    "airtable": "^0.8.1",
     "bulma": "^0.7.2",
-    "concurrently": "^4.1.0",
+    "concurrently": "5.2.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "dotenv": "^6.1.0",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.4"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "browser-sync-webpack-plugin": "2.0.1",
-    "laravel-mix": "^3.0.0",
+    "browser-sync-webpack-plugin": "2.2.2",
+    "laravel-mix": "5.0.0",
     "nodemon": "^1.18.6"
   }
 }
